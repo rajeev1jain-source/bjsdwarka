@@ -1,0 +1,424 @@
+{
+  "whatsappNumber": "919599221424",
+  "categories": {
+    "sarees": [
+      {
+        "code": "KD001",
+        "name": "Saree",
+        "image": "assets/sarees/KD001.jpg",
+        "alt": "Printed saree KD001 from BJS Boutique"
+      },
+      {
+        "code": "KD002",
+        "name": "Saree",
+        "image": "assets/sarees/KD002.jpg",
+        "alt": "Traditional saree KD002 from BJS Boutique"
+      },
+      {
+        "code": "KD003",
+        "name": "Saree",
+        "image": "assets/sarees/KD003.jpg",
+        "alt": "Elegant saree KD003 from BJS Boutique"
+      },
+      {
+        "code": "KD004",
+        "name": "Saree",
+        "image": "assets/sarees/KD004.jpg",
+        "alt": "Occasion saree KD004 from BJS Boutique"
+      },
+      { "code": "KD005",
+        "name": "Saree",
+        "image": "assets/sarees/KD005.jpg",
+        "alt": "Elegant saree KD005 from BJS Boutique"
+      },
+      { "code": "KD006",
+        "name": "Saree",
+        "image": "assets/sarees/KD006.jpg",
+        "alt": "Elegant saree KD006 from BJS Boutique"
+      },
+      { "code": "KD007",
+        "name": "Saree",
+        "image": "assets/sarees/KD007.jpg",
+        "alt": "Elegant saree KD007 from BJS Boutique"
+      },
+      { "code": "KD008",
+        "name": "Saree",
+        "image": "assets/sarees/KD008.jpg",
+        "alt": "Elegant saree KD008 from BJS Boutique"
+      },
+      { "code": "KD009",
+        "name": "Saree",
+        "image": "assets/sarees/KD009.jpg",
+        "alt": "Elegant saree KD009 from BJS Boutique"
+      },
+      { "code": "KD010",
+        "name": "Saree",
+        "image": "assets/sarees/KD010.jpg",
+        "alt": "Elegant saree KD010 from BJS Boutique"
+      },
+      { "code": "KD011",
+        "name": "Saree",
+        "image": "assets/sarees/KD011.jpg",
+        "alt": "Elegant saree KD011 from BJS Boutique"
+      },
+      { "code": "KD012",
+        "name": "Saree",
+        "image": "assets/sarees/KD012.jpg",
+        "alt": "Elegant saree KD012 from BJS Boutique"
+      },
+      { "code": "KD013",
+        "name": "Saree",
+        "image": "assets/sarees/KD013.jpg",
+        "alt": "Elegant saree KD013 from BJS Boutique"
+      },
+      { "code": "KD014",
+        "name": "Saree",
+        "image": "assets/sarees/KD014.jpg",
+        "alt": "Elegant saree KD014 from BJS Boutique"
+      },
+      { "code": "KD015",
+        "name": "Saree",
+        "image": "assets/sarees/KD015.jpg",
+        "alt": "Elegant saree KD015 from BJS Boutique"
+      },
+      { "code": "KD016",
+        "name": "Saree",
+        "image": "assets/sarees/KD016.jpg",
+        "alt": "Elegant saree KD016 from BJS Boutique"
+      },
+      { "code": "KD017",
+        "name": "Saree",
+        "image": "assets/sarees/KD017.jpg",
+        "alt": "Elegant saree KD017 from BJS Boutique"
+      },
+      { "code": "KD018",
+        "name": "Saree",
+        "image": "assets/sarees/KD018.jpg",
+        "alt": "Elegant saree KD018 from BJS Boutique"
+      },
+      { "code": "KD019",
+        "name": "Saree",
+        "image": "assets/sarees/KD019.jpg",
+        "alt": "Elegant saree KD019 from BJS Boutique"
+      },
+      { "code": "KD020",
+        "name": "Saree",
+        "image": "assets/sarees/KD020.jpg",
+        "alt": "Elegant saree KD020 from BJS Boutique"
+      },
+      { "code": "KD021",
+        "name": "Saree",
+        "image": "assets/sarees/KD021.jpg",
+        "alt": "Elegant saree KD021 from BJS Boutique"
+      },
+      { "code": "KD022",
+        "name": "Saree",
+        "image": "assets/sarees/KD022.jpg",
+        "alt": "Elegant saree KD022 from BJS Boutique"
+      },
+      { "code": "KD023",
+        "name": "Saree",
+        "image": "assets/sarees/KD023.jpg",
+        "alt": "Elegant saree KD023 from BJS Boutique"
+      },
+      { "code": "KD024",
+        "name": "Saree",
+        "image": "assets/sarees/KD024.jpg",
+        "alt": "Elegant saree KD024 from BJS Boutique"
+      }
+    ],
+    "jewellery": [
+      {
+        "code": "JW001",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW001.jpeg",
+        "alt": "jewellery JW001 from BJS Boutique"
+      },
+      {
+        "code": "JW002",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW002.jpeg",
+        "alt": "jewellery JW002 from BJS Boutique"
+      },
+      {
+        "code": "JW003",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW003.jpeg",
+        "alt": "jewellery JW003 from BJS Boutique"
+      },
+      {
+        "code": "JW004",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW004.jpeg",
+        "alt": "jewellery JW004 from BJS Boutique"
+      },
+      {
+        "code": "JW005",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW005.jpeg",
+        "alt": "jewellery JW005 from BJS Boutique"
+      },
+      {
+        "code": "JW006",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW006.jpeg",
+        "alt": "jewellery JW006 from BJS Boutique"
+      },
+      {
+        "code": "JW007",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW007.jpeg",
+        "alt": "jewellery JW007 from BJS Boutique"
+      },
+      {
+        "code": "JW008",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW008.jpeg",
+        "alt": "jewellery JW008 from BJS Boutique"
+      },
+      {
+        "code": "JW009",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW009.jpeg",
+        "alt": "jewellery JW009 from BJS Boutique"
+      },
+      {
+        "code": "JW010",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW010.jpeg",
+        "alt": "jewellery JW010 from BJS Boutique"
+      },
+      {
+        "code": "JW011",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW011.jpeg",
+        "alt": "jewellery JW011 from BJS Boutique"
+      },
+      {
+        "code": "JW012",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW012.jpeg",
+        "alt": "jewellery JW012 from BJS Boutique"
+      },
+      {
+        "code": "JW013",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW013.jpeg",
+        "alt": "jewellery JW013 from BJS Boutique"
+      },
+      {
+        "code": "JW014",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW014.jpeg",
+        "alt": "jewellery JW014 from BJS Boutique"
+      },
+      {
+        "code": "JW015",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW015.jpeg",
+        "alt": "jewellery JW015 from BJS Boutique"
+      },
+      {
+        "code": "JW016",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW016.jpeg",
+        "alt": "jewellery JW016 from BJS Boutique"
+      },
+      {
+        "code": "JW017",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW017.jpeg",
+        "alt": "jewellery JW017 from BJS Boutique"
+      },
+      {
+        "code": "JW018",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW018.jpeg",
+        "alt": "jewellery JW018 from BJS Boutique"
+      },
+      {
+        "code": "JW019",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW019.jpeg",
+        "alt": "jewellery JW019 from BJS Boutique"
+      },
+      {
+        "code": "JW020",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW020.jpeg",
+        "alt": "jewellery JW020 from BJS Boutique"
+      },
+      {
+        "code": "JW021",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW021.jpeg",
+        "alt": "jewellery JW021 from BJS Boutique"
+      },
+      {
+        "code": "JW022",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW022.jpeg",
+        "alt": "jewellery JW022 from BJS Boutique"
+      },
+      {
+        "code": "JW023",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW023.jpeg",
+        "alt": "jewellery JW023 from BJS Boutique"
+      },
+      {
+        "code": "JW024",
+        "name": "Jewellery",
+        "image": "assets/jewellery/JW024.jpeg",
+        "alt": "jewellery JW024 from BJS Boutique"
+      }
+    ],
+    "kurties": [],
+    "suits": [
+      {
+        "code": "ST001",
+        "name": "Suits",
+        "image": "assets/suits/ST001.jpeg",
+        "alt": "suits ST001 from BJS Boutique"
+      },
+      {
+        "code": "ST002",
+        "name": "Suits",
+        "image": "assets/suits/ST002.jpeg",
+        "alt": "suits ST002 from BJS Boutique"
+      },
+      {
+        "code": "ST003",
+        "name": "Suits",
+        "image": "assets/suits/ST003.jpeg",
+        "alt": "suits ST003 from BJS Boutique"
+      },
+      {
+        "code": "ST004",
+        "name": "Suits",
+        "image": "assets/suits/ST004.jpeg",
+        "alt": "suits ST004 from BJS Boutique"
+      },
+      {
+        "code": "ST005",
+        "name": "Suits",
+        "image": "assets/suits/ST005.jpeg",
+        "alt": "suits ST005 from BJS Boutique"
+      },
+      {
+        "code": "ST006",
+        "name": "Suits",
+        "image": "assets/suits/ST006.jpeg",
+        "alt": "suits ST006 from BJS Boutique"
+      },
+      {
+        "code": "ST007",
+        "name": "Suits",
+        "image": "assets/suits/ST007.jpeg",
+        "alt": "suits ST007 from BJS Boutique"
+      },
+      {
+        "code": "ST008",
+        "name": "Suits",
+        "image": "assets/suits/ST008.jpeg",
+        "alt": "suits ST008 from BJS Boutique"
+      },
+      {
+        "code": "ST009",
+        "name": "Suits",
+        "image": "assets/suits/ST009.jpeg",
+        "alt": "suits ST009 from BJS Boutique"
+      },
+      {
+        "code": "ST010",
+        "name": "Suits",
+        "image": "assets/suits/ST010.jpeg",
+        "alt": "suits ST010 from BJS Boutique"
+      },
+      {
+        "code": "ST011",
+        "name": "Suits",
+        "image": "assets/suits/ST011.jpeg",
+        "alt": "suits ST011 from BJS Boutique"
+      },
+      {
+        "code": "ST012",
+        "name": "Suits",
+        "image": "assets/suits/ST012.jpeg",
+        "alt": "suits ST012 from BJS Boutique"
+      },
+      {
+        "code": "ST013",
+        "name": "Suits",
+        "image": "assets/suits/ST013.jpeg",
+        "alt": "suits ST013 from BJS Boutique"
+      },
+      {
+        "code": "ST014",
+        "name": "Suits",
+        "image": "assets/suits/ST014.jpeg",
+        "alt": "suits ST014 from BJS Boutique"
+      },
+      {
+        "code": "ST015",
+        "name": "Suits",
+        "image": "assets/suits/ST015.jpeg",
+        "alt": "suits ST015 from BJS Boutique"
+      },
+      {
+        "code": "ST016",
+        "name": "Suits",
+        "image": "assets/suits/ST016.jpeg",
+        "alt": "suits ST016 from BJS Boutique"
+      },
+      {
+        "code": "ST017",
+        "name": "Suits",
+        "image": "assets/suits/ST017.jpeg",
+        "alt": "suits ST017 from BJS Boutique"
+      },
+      {
+        "code": "ST018",
+        "name": "Suits",
+        "image": "assets/suits/ST018.jpeg",
+        "alt": "suits ST018 from BJS Boutique"
+      },
+      {
+        "code": "ST019",
+        "name": "Suits",
+        "image": "assets/suits/ST019.jpeg",
+        "alt": "suits ST019 from BJS Boutique"
+      },
+      {
+        "code": "ST020",
+        "name": "Suits",
+        "image": "assets/suits/ST020.jpeg",
+        "alt": "suits ST020 from BJS Boutique"
+      },
+      {
+        "code": "ST021",
+        "name": "Suits",
+        "image": "assets/suits/ST021.jpeg",
+        "alt": "suits ST021 from BJS Boutique"
+      },
+      {
+        "code": "ST022",
+        "name": "Suits",
+        "image": "assets/suits/ST022.jpeg",
+        "alt": "suits ST022 from BJS Boutique"
+      },
+      {
+        "code": "ST023",
+        "name": "Suits",
+        "image": "assets/suits/ST023.jpeg",
+        "alt": "suits ST023 from BJS Boutique"
+      },
+      {
+        "code": "ST024",
+        "name": "Suits",
+        "image": "assets/suits/ST024.jpeg",
+        "alt": "suits ST024 from BJS Boutique"
+      }
+    ]
+  }
+}

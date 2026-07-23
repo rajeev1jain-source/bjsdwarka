@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="View the BJS Boutique saree gallery with fullscreen image preview.">
+  <title>Gallery | BJS Boutique</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="BJS Boutique home">
+        <img src="assets/logo.jpeg" alt="BJS Boutique logo">
+        <span>
+          <strong>BJS Boutique</strong>
+          <small>Jewellery, Sarees, Kurties &amp; Suits</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="collections.html">Collections</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero compact-hero">
+      <p class="eyebrow">Saree gallery</p>
+      <h1>Catalogue Gallery</h1>
+      <p>A closer look at the current saree catalogue, with product codes ready for boutique enquiries.</p>
+    </section>
+
+    <section class="section">
+      <div class="gallery-grid" data-gallery></div>
+    </section>
+  </main>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image preview">Close</button>
+    <figure>
+      <img alt="" data-lightbox-image>
+      <figcaption data-lightbox-caption></figcaption>
+    </figure>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <strong>BJS Boutique</strong>
+        <p>S-47, IInd Floor, Manish Global Mall, Dwarka Sector 22, New Delhi - 110075</p>
+      </div>
+      <div>
+        <a href="tel:+919599221424">9599221424</a>
+        <a href="https://www.instagram.com/bjsdwarka" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.me/919599221424" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span data-year></span> BJS Boutique. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

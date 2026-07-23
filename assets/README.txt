@@ -1,0 +1,1 @@
+Place logo.jpeg, hero.jpg, and KD001.jpg-KD004.jpg in assets/sarees
