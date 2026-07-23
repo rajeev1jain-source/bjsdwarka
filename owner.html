@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Owner Lite | BJS Boutique</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owner.css">
+</head>
+<body class="owner-page">
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="BJS Boutique home">
+        <img src="assets/logo.jpeg" alt="BJS Boutique logo">
+        <span>
+          <strong>BJS Boutique</strong>
+          <small>Owner Lite</small>
+        </span>
+      </a>
+
+      <nav class="primary-nav owner-nav" aria-label="Owner navigation">
+        <a href="index.html">View Site</a>
+        <a href="collections.html">Collections</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="owner-shell">
+    <section class="owner-top">
+      <div>
+        <p class="eyebrow">Owner Lite</p>
+        <h1>Catalog Editor</h1>
+      </div>
+
+      <div class="owner-actions">
+        <button class="btn btn-primary" id="download-catalog" type="button" disabled>Save catalog.json</button>
+      </div>
+    </section>
+
+    <p class="owner-status" data-owner-status>Loading catalog.json...</p>
+
+    <form class="owner-form" id="owner-form" hidden>
+      <section class="owner-panel">
+        <div class="owner-section-heading">
+          <h2>Business Details</h2>
+        </div>
+
+        <div class="owner-field-grid">
+          <label>
+            <span>Business Name</span>
+            <input data-path="business.name" type="text">
+          </label>
+
+          <label>
+            <span>Tagline</span>
+            <input data-path="business.tagline" type="text">
+          </label>
+
+          <label>
+            <span>Phone</span>
+            <input data-path="business.phone" type="text">
+          </label>
+
+          <label>
+            <span>Phone Link</span>
+            <input data-path="business.phoneHref" type="text">
+          </label>
+
+          <label>
+            <span>WhatsApp Number</span>
+            <input data-path="business.whatsappNumber" type="text">
+          </label>
+
+          <label>
+            <span>Instagram URL</span>
+            <input data-path="business.instagramUrl" type="url">
+          </label>
+
+          <label>
+            <span>Instagram Handle</span>
+            <input data-path="business.instagramHandle" type="text">
+          </label>
+
+          <label>
+            <span>Business Hours</span>
+            <textarea data-path="business.businessHours" rows="3"></textarea>
+          </label>
+
+          <label>
+            <span>Address Lines</span>
+            <textarea data-lines data-path="business.addressLines" rows="4"></textarea>
+          </label>
+
+          <label>
+            <span>Footer Address</span>
+            <textarea data-path="business.addressSingleLine" rows="3"></textarea>
+          </label>
+
+          <label class="owner-field-wide">
+            <span>Map Embed URL</span>
+            <input data-path="business.mapEmbedUrl" type="url">
+          </label>
+        </div>
+      </section>
+
+      <section class="owner-panel">
+        <div class="owner-section-heading">
+          <h2>Homepage Text</h2>
+        </div>
+
+        <div class="owner-field-grid">
+          <label>
+            <span>Hero Eyebrow</span>
+            <input data-path="copy.home.heroEyebrow" type="text">
+          </label>
+
+          <label>
+            <span>Hero Title</span>
+            <input data-path="homepage.hero.title" type="text">
+          </label>
+
+          <label class="owner-field-wide">
+            <span>Hero Subtitle</span>
+            <textarea data-path="homepage.hero.subtitle" rows="3"></textarea>
+          </label>
+
+          <label>
+            <span>Primary Button</span>
+            <input data-path="copy.home.heroPrimaryButtonText" type="text">
+          </label>
+
+          <label>
+            <span>WhatsApp Button</span>
+            <input data-path="copy.home.heroWhatsappButtonText" type="text">
+          </label>
+
+          <label>
+            <span>Intro Eyebrow</span>
+            <input data-path="copy.home.introEyebrow" type="text">
+          </label>
+
+          <label>
+            <span>Intro Title</span>
+            <input data-path="copy.home.introTitle" type="text">
+          </label>
+
+          <label class="owner-field-wide">
+            <span>Intro Text</span>
+            <textarea data-path="copy.home.introText" rows="3"></textarea>
+          </label>
+
+          <label>
+            <span>Featured Eyebrow</span>
+            <input data-path="copy.home.featuredEyebrow" type="text">
+          </label>
+
+          <label>
+            <span>Featured Title</span>
+            <input data-path="copy.home.featuredTitle" type="text">
+          </label>
+
+          <label>
+            <span>Story Eyebrow</span>
+            <input data-path="copy.home.storyEyebrow" type="text">
+          </label>
+
+          <label>
+            <span>Story Title</span>
+            <input data-path="homepage.story.title" type="text">
+          </label>
+
+          <label class="owner-field-wide">
+            <span>Story Text</span>
+            <textarea data-path="homepage.story.text" rows="4"></textarea>
+          </label>
+
+          <label>
+            <span>Story Link</span>
+            <input data-path="copy.home.storyLinkText" type="text">
+          </label>
+
+          <label>
+            <span>Visit Eyebrow</span>
+            <input data-path="copy.home.visitEyebrow" type="text">
+          </label>
+
+          <label>
+            <span>Visit Title</span>
+            <input data-path="copy.home.visitTitle" type="text">
+          </label>
+
+          <label class="owner-field-wide">
+            <span>Visit Text</span>
+            <textarea data-path="copy.home.visitText" rows="3"></textarea>
+          </label>
+
+          <label>
+            <span>Visit Button</span>
+            <input data-path="copy.home.visitPrimaryButtonText" type="text">
+          </label>
+
+          <label>
+            <span>Call Button</span>
+            <input data-path="copy.home.visitCallButtonText" type="text">
+          </label>
+        </div>
+      </section>
+
+      <section class="owner-panel">
+        <div class="owner-section-heading owner-products-heading">
+          <h2>Products</h2>
+
+          <div class="owner-product-filters">
+            <label>
+              <span>Category</span>
+              <select id="category-filter">
+                <option value="all">All</option>
+                <option value="sarees">Sarees</option>
+                <option value="jewellery">Jewellery</option>
+                <option value="kurties">Kurties</option>
+                <option value="suits">Suits</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Search</span>
+              <input id="product-search" type="search">
+            </label>
+          </div>
+        </div>
+
+        <div class="owner-product-list" id="product-list"></div>
+      </section>
+    </form>
+
+    <template id="product-row-template">
+      <article class="owner-product-row">
+        <div class="owner-product-preview">
+          <img alt="" data-product-image>
+          <div>
+            <p data-product-code></p>
+            <h3 data-product-heading></h3>
+          </div>
+        </div>
+
+        <div class="owner-product-fields">
+          <label>
+            <span>Product Name</span>
+            <input data-product-field="name" type="text">
+          </label>
+
+          <label>
+            <span>MRP</span>
+            <input data-product-field="mrp" min="0" step="1" type="number">
+          </label>
+
+          <label>
+            <span>Selling Price</span>
+            <input data-product-field="sellingPrice" min="0" step="1" type="number">
+          </label>
+
+          <div class="owner-check-list" aria-label="Product options">
+            <label>
+              <input data-product-field="visible" type="checkbox">
+              <span>Show</span>
+            </label>
+
+            <label>
+              <input data-product-field="featured" type="checkbox">
+              <span>Featured</span>
+            </label>
+
+            <label>
+              <input data-product-field="newArrival" type="checkbox">
+              <span>New Arrival</span>
+            </label>
+
+            <label>
+              <input data-product-field="outOfStock" type="checkbox">
+              <span>Out of Stock</span>
+            </label>
+          </div>
+        </div>
+      </article>
+    </template>
+  </main>
+
+  <script src="js/owner.js"></script>
+</body>
+</html>

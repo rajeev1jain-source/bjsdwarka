@@ -44,102 +44,122 @@
         "image": "assets/sarees/KD004.jpg",
         "alt": "Occasion saree KD004 from BJS Boutique"
       },
-      { "code": "KD005",
+      {
+        "code": "KD005",
         "name": "Saree",
         "image": "assets/sarees/KD005.jpg",
         "alt": "Elegant saree KD005 from BJS Boutique"
       },
-      { "code": "KD006",
+      {
+        "code": "KD006",
         "name": "Saree",
         "image": "assets/sarees/KD006.jpg",
         "alt": "Elegant saree KD006 from BJS Boutique"
       },
-      { "code": "KD007",
+      {
+        "code": "KD007",
         "name": "Saree",
         "image": "assets/sarees/KD007.jpg",
         "alt": "Elegant saree KD007 from BJS Boutique"
       },
-      { "code": "KD008",
+      {
+        "code": "KD008",
         "name": "Saree",
         "image": "assets/sarees/KD008.jpg",
         "alt": "Elegant saree KD008 from BJS Boutique"
       },
-      { "code": "KD009",
+      {
+        "code": "KD009",
         "name": "Saree",
         "image": "assets/sarees/KD009.jpg",
         "alt": "Elegant saree KD009 from BJS Boutique"
       },
-      { "code": "KD010",
+      {
+        "code": "KD010",
         "name": "Saree",
         "image": "assets/sarees/KD010.jpg",
         "alt": "Elegant saree KD010 from BJS Boutique"
       },
-      { "code": "KD011",
+      {
+        "code": "KD011",
         "name": "Saree",
         "image": "assets/sarees/KD011.jpg",
         "alt": "Elegant saree KD011 from BJS Boutique"
       },
-      { "code": "KD012",
+      {
+        "code": "KD012",
         "name": "Saree",
         "image": "assets/sarees/KD012.jpg",
         "alt": "Elegant saree KD012 from BJS Boutique"
       },
-      { "code": "KD013",
+      {
+        "code": "KD013",
         "name": "Saree",
         "image": "assets/sarees/KD013.jpg",
         "alt": "Elegant saree KD013 from BJS Boutique"
       },
-      { "code": "KD014",
+      {
+        "code": "KD014",
         "name": "Saree",
         "image": "assets/sarees/KD014.jpg",
         "alt": "Elegant saree KD014 from BJS Boutique"
       },
-      { "code": "KD015",
+      {
+        "code": "KD015",
         "name": "Saree",
         "image": "assets/sarees/KD015.jpg",
         "alt": "Elegant saree KD015 from BJS Boutique"
       },
-      { "code": "KD016",
+      {
+        "code": "KD016",
         "name": "Saree",
         "image": "assets/sarees/KD016.jpg",
         "alt": "Elegant saree KD016 from BJS Boutique"
       },
-      { "code": "KD017",
+      {
+        "code": "KD017",
         "name": "Saree",
         "image": "assets/sarees/KD017.jpg",
         "alt": "Elegant saree KD017 from BJS Boutique"
       },
-      { "code": "KD018",
+      {
+        "code": "KD018",
         "name": "Saree",
         "image": "assets/sarees/KD018.jpg",
         "alt": "Elegant saree KD018 from BJS Boutique"
       },
-      { "code": "KD019",
+      {
+        "code": "KD019",
         "name": "Saree",
         "image": "assets/sarees/KD019.jpg",
         "alt": "Elegant saree KD019 from BJS Boutique"
       },
-      { "code": "KD020",
+      {
+        "code": "KD020",
         "name": "Saree",
         "image": "assets/sarees/KD020.jpg",
         "alt": "Elegant saree KD020 from BJS Boutique"
       },
-      { "code": "KD021",
+      {
+        "code": "KD021",
         "name": "Saree",
         "image": "assets/sarees/KD021.jpg",
         "alt": "Elegant saree KD021 from BJS Boutique"
       },
-      { "code": "KD022",
+      {
+        "code": "KD022",
         "name": "Saree",
         "image": "assets/sarees/KD022.jpg",
         "alt": "Elegant saree KD022 from BJS Boutique"
       },
-      { "code": "KD023",
+      {
+        "code": "KD023",
         "name": "Saree",
         "image": "assets/sarees/KD023.jpg",
         "alt": "Elegant saree KD023 from BJS Boutique"
       },
-      { "code": "KD024",
+      {
+        "code": "KD024",
         "name": "Saree",
         "image": "assets/sarees/KD024.jpg",
         "alt": "Elegant saree KD024 from BJS Boutique"
@@ -204,91 +224,121 @@
         "code": "JW010",
         "name": "Jewellery",
         "image": "assets/jewellery/JW010.jpeg",
-        "alt": "jewellery JW010 from BJS Boutique"
+        "alt": "jewellery JW010 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW011",
         "name": "Jewellery",
         "image": "assets/jewellery/JW011.jpeg",
-        "alt": "jewellery JW011 from BJS Boutique"
+        "alt": "jewellery JW011 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW012",
         "name": "Jewellery",
         "image": "assets/jewellery/JW012.jpeg",
-        "alt": "jewellery JW012 from BJS Boutique"
+        "alt": "jewellery JW012 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW013",
         "name": "Jewellery",
         "image": "assets/jewellery/JW013.jpeg",
-        "alt": "jewellery JW013 from BJS Boutique"
+        "alt": "jewellery JW013 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW014",
         "name": "Jewellery",
         "image": "assets/jewellery/JW014.jpeg",
-        "alt": "jewellery JW014 from BJS Boutique"
+        "alt": "jewellery JW014 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW015",
         "name": "Jewellery",
         "image": "assets/jewellery/JW015.jpeg",
-        "alt": "jewellery JW015 from BJS Boutique"
+        "alt": "jewellery JW015 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW016",
         "name": "Jewellery",
         "image": "assets/jewellery/JW016.jpeg",
-        "alt": "jewellery JW016 from BJS Boutique"
+        "alt": "jewellery JW016 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW017",
         "name": "Jewellery",
         "image": "assets/jewellery/JW017.jpeg",
-        "alt": "jewellery JW017 from BJS Boutique"
+        "alt": "jewellery JW017 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW018",
         "name": "Jewellery",
         "image": "assets/jewellery/JW018.jpeg",
-        "alt": "jewellery JW018 from BJS Boutique"
+        "alt": "jewellery JW018 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW019",
         "name": "Jewellery",
         "image": "assets/jewellery/JW019.jpeg",
-        "alt": "jewellery JW019 from BJS Boutique"
+        "alt": "jewellery JW019 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW020",
         "name": "Jewellery",
         "image": "assets/jewellery/JW020.jpeg",
-        "alt": "jewellery JW020 from BJS Boutique"
+        "alt": "jewellery JW020 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW021",
         "name": "Jewellery",
         "image": "assets/jewellery/JW021.jpeg",
-        "alt": "jewellery JW021 from BJS Boutique"
+        "alt": "jewellery JW021 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW022",
         "name": "Jewellery",
         "image": "assets/jewellery/JW022.jpeg",
-        "alt": "jewellery JW022 from BJS Boutique"
+        "alt": "jewellery JW022 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW023",
         "name": "Jewellery",
         "image": "assets/jewellery/JW023.jpeg",
-        "alt": "jewellery JW023 from BJS Boutique"
+        "alt": "jewellery JW023 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       },
       {
         "code": "JW024",
         "name": "Jewellery",
         "image": "assets/jewellery/JW024.jpeg",
-        "alt": "jewellery JW024 from BJS Boutique"
+        "alt": "jewellery JW024 from BJS Boutique",
+        "visible": false,
+        "status": "Image pending"
       }
     ],
     "kurties": [],
@@ -438,5 +488,90 @@
         "alt": "suits ST024 from BJS Boutique"
       }
     ]
+  },
+  "business": {
+    "name": "BJS Boutique",
+    "tagline": "Jewellery, Sarees, Kurties & Suits",
+    "phone": "9599221424",
+    "phoneHref": "+919599221424",
+    "whatsappNumber": "919599221424",
+    "currency": "INR",
+    "whatsappMessage": "Hi, I'd like to enquire about BJS Boutique.",
+    "productWhatsappMessage": "Hi, I'm interested in this product.",
+    "instagramUrl": "https://www.instagram.com/bjsdwarka",
+    "instagramHandle": "@bjsdwarka",
+    "addressLines": [
+      "S-47, IInd Floor",
+      "Manish Global Mall",
+      "Dwarka Sector 22",
+      "New Delhi - 110075"
+    ],
+    "addressSingleLine": "S-47, IInd Floor, Manish Global Mall, Dwarka Sector 22, New Delhi - 110075",
+    "businessHours": "Please call or WhatsApp before visiting so the boutique can confirm current hours and availability.",
+    "mapEmbedUrl": "https://www.google.com/maps?q=S-47%20IInd%20Floor%20Manish%20Global%20Mall%20Dwarka%20Sector%2022%20New%20Delhi%20110075&output=embed"
+  },
+  "copy": {
+    "home": {
+      "heroEyebrow": "Dwarka Sector 22",
+      "heroPrimaryButtonText": "Explore Collections",
+      "heroWhatsappButtonText": "WhatsApp Boutique",
+      "introEyebrow": "Personalised shopping",
+      "introTitle": "Curated occasion wear with a boutique touch.",
+      "introText": "BJS Boutique brings together graceful Indian silhouettes, detailed textiles and styling guidance in a calm, personal setting. Browse the catalogue online, then visit the boutique or enquire on WhatsApp for availability.",
+      "featuredEyebrow": "Featured categories",
+      "featuredTitle": "Find your next festive, family or everyday piece.",
+      "storyEyebrow": "About BJS Boutique",
+      "storyLinkText": "Read our story",
+      "visitEyebrow": "Visit the boutique",
+      "visitTitle": "S-47, IInd Floor, Manish Global Mall, Dwarka Sector 22.",
+      "visitText": "Call or WhatsApp before visiting and we will help you with catalogue enquiries, product codes and boutique directions.",
+      "visitPrimaryButtonText": "Plan Your Visit",
+      "visitCallButtonText": "Call 9599221424"
+    },
+    "collections": {
+      "heroEyebrow": "Catalogue",
+      "heroTitle": "Our Collections",
+      "heroText": "Browse available product codes and enquire directly on WhatsApp. More products can be added to the catalogue by updating catalog.json and placing images in the right assets folder.",
+      "sareesEyebrow": "Available now",
+      "sareesTitle": "Sarees",
+      "jewelleryEyebrow": "Boutique selection",
+      "jewelleryTitle": "Jewellery",
+      "kurtiesEyebrow": "Boutique selection",
+      "kurtiesTitle": "Kurties",
+      "suitsEyebrow": "Boutique selection",
+      "suitsTitle": "Suits"
+    },
+    "gallery": {
+      "heroEyebrow": "Gallery",
+      "heroTitle": "Catalogue Gallery",
+      "heroText": "A closer look at the current catalogue, with product codes ready for boutique enquiries."
+    },
+    "about": {
+      "heroEyebrow": "Our story",
+      "heroTitle": "Traditional elegance, selected personally.",
+      "heroText": "BJS Boutique is built for women who want beautiful Indian wear without the rush of a crowded shopping experience.",
+      "storyEyebrow": "Quality first",
+      "storyTitle": "Pieces chosen for finish, fabric and feeling.",
+      "storyTextOne": "Every collection at BJS Boutique is selected with attention to quality and graceful detailing. The focus is not on volume; it is on helping each customer find pieces that feel elegant, comfortable and appropriate for the moment.",
+      "storyTextTwo": "From festive sarees to jewellery styling, kurties and suits, the boutique brings together Indian craftsmanship and practical everyday wearability.",
+      "valuesEyebrow": "What we value",
+      "valuesTitle": "A boutique experience that feels personal.",
+      "valueOneTitle": "Elegance",
+      "valueOneText": "Classic colours, refined motifs and silhouettes that move from family gatherings to celebrations.",
+      "valueTwoTitle": "Craftsmanship",
+      "valueTwoText": "Traditional textile details, borders, prints and finishes are treated as the heart of each piece.",
+      "valueThreeTitle": "Personal guidance",
+      "valueThreeText": "Shop with product codes online, then message or visit for styling help and availability checks."
+    },
+    "contact": {
+      "heroEyebrow": "Visit us",
+      "heroTitle": "Contact BJS Boutique",
+      "heroText": "Message us for catalogue availability, product-code enquiries, styling help or directions to the boutique.",
+      "addressTitle": "Address",
+      "phoneTitle": "Phone & WhatsApp",
+      "whatsappLinkText": "Start a WhatsApp chat",
+      "instagramTitle": "Instagram",
+      "hoursTitle": "Business Hours"
+    }
   }
 }
