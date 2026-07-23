@@ -1,5 +1,6 @@
 let catalog = {
   whatsappNumber: "919599221424",
+  homepage: {},
   categories: {}
 };
 
@@ -32,8 +33,59 @@ async function loadCatalog() {
   const data = await response.json();
   catalog = {
     whatsappNumber: data.whatsappNumber || catalog.whatsappNumber,
+    homepage: data.homepage || {},
     categories: data.categories || {}
   };
+}
+
+function setTextById(id, value) {
+  const element = document.getElementById(id);
+
+  if (!element || typeof value !== "string" || value.trim() === "") {
+    return;
+  }
+
+  element.textContent = value;
+}
+
+function setImageById(id, src) {
+  const image = document.getElementById(id);
+
+  if (!image || typeof src !== "string" || src.trim() === "") {
+    return;
+  }
+
+  image.src = src;
+}
+
+function setHeroImage(src) {
+  const hero = document.getElementById("hero-image");
+
+  if (!hero || typeof src !== "string" || src.trim() === "") {
+    return;
+  }
+
+  hero.style.backgroundImage = `linear-gradient(90deg, rgba(6, 47, 40, 0.9), rgba(6, 47, 40, 0.56) 48%, rgba(6, 47, 40, 0.18)), url("${src}")`;
+}
+
+function populateHomepage() {
+  const homepage = catalog.homepage || {};
+  const hero = homepage.hero || {};
+  const featuredCategories = homepage.featuredCategories || {};
+  const story = homepage.story || {};
+
+  setHeroImage(hero.image);
+  setTextById("hero-title", hero.title);
+  setTextById("hero-subtitle", hero.subtitle);
+
+  setImageById("featured-sarees-image", featuredCategories.sarees);
+  setImageById("featured-jewellery-image", featuredCategories.jewellery);
+  setImageById("featured-kurties-image", featuredCategories.kurties);
+  setImageById("featured-suits-image", featuredCategories.suits);
+
+  setImageById("story-image", story.image);
+  setTextById("story-title", story.title);
+  setTextById("story-text", story.text);
 }
 
 function createProductCard(product) {
@@ -173,6 +225,40 @@ function renderCatalogError() {
   });
 }
 
+function getHashTarget() {
+  if (!window.location.hash) {
+    return null;
+  }
+
+  try {
+    return document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+  } catch (error) {
+    return null;
+  }
+}
+
+function scrollToHashTarget() {
+  const target = getHashTarget();
+
+  if (!target) {
+    return;
+  }
+
+  const headerHeight = document.querySelector(".site-header")?.offsetHeight || 0;
+  const targetTop = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+  window.scrollTo({
+    top: Math.max(targetTop, 0),
+    behavior: "auto"
+  });
+}
+
+function scheduleHashScroll() {
+  requestAnimationFrame(() => {
+    requestAnimationFrame(scrollToHashTarget);
+  });
+}
+
 function openLightbox(product) {
   const lightbox = document.querySelector("[data-lightbox]");
   const image = document.querySelector("[data-lightbox-image]");
@@ -273,10 +359,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     await loadCatalog();
+    populateHomepage();
     renderProductGrids();
     renderGallery();
+    scheduleHashScroll();
   } catch (error) {
     console.error(error);
     renderCatalogError();
   }
 });
+
+window.addEventListener("hashchange", scheduleHashScroll);

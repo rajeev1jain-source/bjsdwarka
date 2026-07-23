@@ -1,5 +1,23 @@
 {
   "whatsappNumber": "919599221424",
+  "homepage": {
+    "hero": {
+      "image": "assets/hero.jpg",
+      "title": "BJS Boutique",
+      "subtitle": "Elegant sarees, jewellery, kurties and suits selected for women who love tradition with a refined finish."
+    },
+    "featuredCategories": {
+      "sarees": "assets/sarees/KD001.jpg",
+      "jewellery": "assets/jewellery/JW001.jpeg",
+      "kurties": "assets/suits/ST010.jpeg",
+      "suits": "assets/suits/ST002.jpeg"
+    },
+    "story": {
+      "image": "assets/jewellery/JW002.jpeg",
+      "title": "Elegance selected with care.",
+      "text": "Our boutique focuses on quality, wearable elegance and pieces that feel personal. Every visit is shaped around what you are shopping for, whether it is a celebration, gifting, a family occasion or a wardrobe refresh."
+    }
+  },
   "categories": {
     "sarees": [
       {
