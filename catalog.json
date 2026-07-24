@@ -24,7 +24,9 @@
         "code": "KD001",
         "name": "Saree",
         "image": "assets/sarees/KD001.jpg",
-        "alt": "Printed saree KD001 from BJS Boutique"
+        "alt": "Printed saree KD001 from BJS Boutique",
+        "mrp": 4999,
+        "sellingPrice": 3999
       },
       {
         "code": "KD002",
