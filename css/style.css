@@ -424,6 +424,7 @@ p {
 
 .collection-section {
   border-top: 1px solid var(--line);
+  scroll-margin-top: 96px;
 }
 
 .product-card {
@@ -451,6 +452,55 @@ p {
   font-size: 0.82rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.product-description {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.product-statuses,
+.product-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-badge,
+.discount-badge {
+  border-radius: 4px;
+  font-size: 0.74rem;
+  font-weight: 900;
+  padding: 5px 8px;
+}
+
+.status-badge {
+  background: rgba(6, 47, 40, 0.1);
+  color: var(--emerald);
+}
+
+.product-mrp {
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+
+.product-selling-price {
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.discount-badge {
+  background: rgba(143, 52, 45, 0.1);
+  color: var(--rose);
+}
+
+.product-price-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .product-card .btn {
